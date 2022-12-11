@@ -34,7 +34,7 @@ error_reporting(0);
       <div class="navigation-tabs">
         <a href="homepage.php"><div class="home-tab">
           <img class="home-tab-icon" src="images/home-icon.png" />
-          <p>Home</p>
+          <p>Pocetna</p>
         </div></a>
         <a href="forum.php"><div class="forum-tab">
           <img class="forum-tab-icon" src="images/forum-icon.png" />
@@ -42,13 +42,13 @@ error_reporting(0);
         </div></a>
         <a href="faqpage.php"><div class="faq-tab">
           <img class="faq-tab-icon" src="images/faq-icon.png" />
-          <p>FAQ</p>
+          <p>Pitanja</p>
         </div></a>
         <?php if(!$userID) { ?>
         <a href="login.html"
           ><div class="login-tab">
             <img class="login-tab-icon" src="images/login-icon.png" />
-            <p>Log In</p>
+            <p>Uloguj se</p>
           </div></a>
         <?php } else { ?>
         <a href="logoutpage.php"
@@ -166,12 +166,12 @@ error_reporting(0);
         </p>
       </div>
       <div class="about-us">
-        <a href="aboutus.php"><p>About Us</p></a>
-        <a href="contact.php"><p>Contact</p></a>
-        <a href="staff.php"><p>Staff</p></a>
+        <a href="aboutus.php"><p>O nama</p></a>
+        <a href="contact.php"><p>Kontakt</p></a>
+        <a href="staff.php"><p>Zaposleni</p></a>
       </div>
       <div class="social-media">
-        <p class="social-media-text">Social Media</p>
+        <p class="social-media-text">Mreza</p>
         <div class="social-media-icons">
           <a href="https://www.instagram.com/" target="blank"
             ><img class="social-media-icon-image" src="images/instagram.png"

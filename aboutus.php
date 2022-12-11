@@ -12,7 +12,7 @@ include 'scripts/connection.php';
 <!DOCTYPE html>
 <html>
   <head>
-    <title>About Us</title>
+    <title>O nama</title>
     <link rel="stylesheet" href="stylesheets/general.css" />
     <link rel="stylesheet" href="stylesheets/header.css" />
     <link rel="stylesheet" href="stylesheets/content.css" />
@@ -35,7 +35,7 @@ include 'scripts/connection.php';
         <a href="homepage.php"
           ><div class="home-tab">
             <img class="home-tab-icon" src="images/home-icon.png" />
-            <p>Home</p>
+            <p>Pocetna</p>
           </div></a
         >
         <a href="forum.php"
@@ -47,14 +47,14 @@ include 'scripts/connection.php';
         <a href="faqpage.php"
           ><div class="faq-tab">
             <img class="faq-tab-icon" src="images/faq-icon.png" />
-            <p>FAQ</p>
+            <p>Pitanja</p>
           </div></a
         >
         <?php if(!$userID) { ?>
         <a href="login.html"
           ><div class="login-tab">
             <img class="login-tab-icon" src="images/login-icon.png" />
-            <p>Log In</p>
+            <p>Uloguj se</p>
           </div></a>
         <?php } else { ?>
         <a href="logoutpage.php"
@@ -104,12 +104,12 @@ include 'scripts/connection.php';
         </p>
       </div>
       <div class="about-us">
-        <a href="aboutus.php"><p>About Us</p></a>
-        <a href="contact.php"><p>Contact</p></a>
-        <a href="staff.php"><p>Staff</p></a>
+        <a href="aboutus.php"><p>O nama</p></a>
+        <a href="contact.php"><p>Kontakt</p></a>
+        <a href="staff.php"><p>Zaposleni</p></a>
       </div>
       <div class="social-media">
-        <p class="social-media-text">Social Media</p>
+        <p class="social-media-text">Mreze</p>
         <div class="social-media-icons">
           <a href="https://www.instagram.com/" target="blank"
             ><img class="social-media-icon-image" src="images/instagram.png"

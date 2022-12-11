@@ -15,7 +15,7 @@
                     <p class="post_name"><?php echo $row['name'];?></p>
                 </div>
                 <div class="likes_wrap">
-                    <p class="post_likes">Likes: <?php echo $row['likes'];?></p>
+                    <p class="post_likes">Lajk: <?php echo $row['likes'];?></p>
                 </div>
             </div></a>
             <?php
