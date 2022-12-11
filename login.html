@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Log In</title>
+    <link rel="stylesheet" href="stylesheets/header.css" />
+    <link rel="stylesheet" href="stylesheets/forma.css" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <a href="homepage.php"
+        ><div class="logo-image-container">
+          <img class="logo-image" src="images/logo.png" /></div
+      ></a>
+      <div class="navigation-tabs">
+        <a href="homepage.php"
+          ><div class="home-tab">
+            <img class="home-tab-icon" src="images/home-icon.png" />
+            <p>Home</p>
+          </div></a
+        >
+        <a href="forum.php"
+          ><div class="forum-tab">
+            <img class="forum-tab-icon" src="images/forum-icon.png" />
+            <p>Forum</p>
+          </div></a
+        >
+        <a href="faqpage.php"
+          ><div class="faq-tab">
+            <img class="faq-tab-icon" src="images/faq-icon.png" />
+            <p>FAQ</p>
+          </div></a
+        >
+        <a href="login.html"
+          ><div class="login-tab">
+            <img class="login-tab-icon" src="images/login-icon.png" />
+            <p>Log In</p>
+          </div></a
+        >
+      </div>
+    </div>
+
+    <div class="login_box">
+      <form id="form" action="scripts/loginscript.php" method="post">
+        <center><h1>Ulogujte se</h1></center>
+        <div class="email_box input">
+          <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="password_box input">
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Lozinka"
+            required
+          />
+        </div>
+        <div class="button">
+          <center>
+            <input
+              id="username"
+              type="submit"
+              name="submit_register"
+              value="Log In"
+            />
+          </center>
+        </div>
+      </form>
+      <div>
+        <p class="text-register">
+          Ukoliko nemate nalog, registrujte se
+          <u><a href="login2.html">ovde.</a></u>
+        </p>
+      </div>
+    </div>
+    <img
+      class="slika1"
+      width="700px"
+      height="755px"
+      src="images/20945597.png"
+    />
+  </body>
+</html>

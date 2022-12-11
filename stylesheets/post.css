@@ -1,0 +1,108 @@
+.user-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  width: 900px;
+  min-width: 600px;
+  background-color: rgb(220, 220, 220);
+  position: relative;
+  border-radius: 10px;
+}
+.user-post-title-text {
+  font-size: 30px;
+  font-weight: 500;
+}
+.user-post-creator-username-creation-date {
+  font-size: 15px;
+  color: rgb(0, 0, 0, 0.5);
+}
+.user-post-content {
+  margin-top: 10px;
+  background-color: rgb(200, 200, 200);
+  padding: 15px;
+  border-radius: 10px;
+}
+.below-text-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.user-reputation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.user-rep {
+  margin-right: 10px;
+}
+.repup-icon {
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-color: green;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+.repup-icon-unliked {
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-color: grey;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+.repup-icon:hover {
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+.repup-image {
+  height: 30px;
+  display: flex;
+}
+
+.user-post-replies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  width: 600px;
+  min-width: 400px;
+  background-color: rgb(220, 220, 220);
+  position: relative;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.user-reply-creator-username {
+  font-size: 12px;
+  color: rgb(0, 0, 0, 0.5);
+}
+.user-post-replies-content {
+  margin-top: 10px;
+  background-color: rgb(200, 200, 200);
+  padding: 15px;
+  border-radius: 10px;
+}
+.user-post-reply-button-class {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(200, 200, 200);
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  transition: background-color 0.3s;
+}
+.user-post-reply-button-class:hover {
+  background-color: rgb(180, 180, 180);
+}

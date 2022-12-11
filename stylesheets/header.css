@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #3ec75d;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+.logo-image-container {
+  width: 300px;
+  margin-left: 90px;
+}
+.logo-image {
+  height: 60px;
+}
+
+.navigation-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  white-space: nowrap;
+  margin-right: 65px;
+  width: 450px;
+}
+.home-tab,
+.forum-tab,
+.login-tab,
+.faq-tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  font-family: Poppins, Arial;
+  font-size: 20px;
+  color: white;
+  margin: 5px;
+  padding: 6px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.home-tab:hover,
+.forum-tab:hover,
+.login-tab:hover,
+.faq-tab:hover {
+  background-color: #44db67;
+}
+.home-tab-icon,
+.forum-tab-icon,
+.faq-tab-icon,
+.login-tab-icon {
+  height: 24px;
+  margin-right: 5px;
+}

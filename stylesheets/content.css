@@ -1,0 +1,139 @@
+.page-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  width: 800px;
+  min-width: 400px;
+}
+.info-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.info-text {
+  font-size: 16px;
+  line-height: 30px;
+}
+.info-box-section {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}
+
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.faq-title {
+  display: flex;
+  white-space: nowrap;
+  font-size: 34px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 80px;
+  padding-left: 80px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 10px;
+  transition: background-color 0.2s;
+  margin-bottom: 50px;
+}
+.faq-title:hover {
+  background-color: rgb(200, 200, 200);
+}
+.pitanje {
+  font-family: Poppins, Arial;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: #3ec75d;
+  width: 800px;
+  padding: 24px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.pitanje:hover {
+  background-color: #41d162;
+}
+.pitanje:active {
+  background-color: #37b053;
+}
+.odgovor {
+  margin-top: -15px;
+  width: 800px;
+  padding: 20px;
+  transition-duration: 0.5s;
+}
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+details > *:not(summary) {
+  animation: details-show 500ms ease-in-out;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+  color: black;
+  overflow: hidden;
+}
+.page-content {
+  display: flex;
+}
+
+.staff-people-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(220, 220, 220);
+  border-radius: 20px;
+  flex: 1;
+  min-width: 700px;
+  min-height: 500px;
+  max-width: 900px;
+  height: 750px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 20px;
+  position: relative;
+}
+.staff-people {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  flex: 1;
+  margin: 5px;
+  padding: 20px;
+}
+.staff-person {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  width: 50%;
+  margin: 5px;
+  background-color: rgb(200, 200, 200);
+  border-radius: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+.staff-person:hover {
+  background-color: rgb(210, 210, 210);
+}
